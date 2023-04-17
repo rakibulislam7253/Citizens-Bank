@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script
+      src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <title>Document</title>
+    <style>
+            /* .tables_ui {
+  display:inline-block;
+  margin:2px 2%;
+  border:2px solid #3333fe;
+  border-spacing:0;
+  padding: 10px;
+}
+.tables_ui ul li {
+  min-width: 200px;
+}
+.dragging li.ui-state-hover {
+  min-width: 240px;
+}
+.dragging .ui-state-hover a {
+  color:green !important;
+  font-weight: bold;
+}
+.tables_ui th,td {
+  text-align: right;
+  padding: 2px 4px;
+  border: 1px solid;
+  width: 100%;
+  border: 1px solid tomato;
+  max-width: 200px;
+  height: 30px;
+  border-radius: 0% 8% 8% 0%;
+  
+}
+.t_sortable tr, .ui-sortable-helper {
+  cursor: move;
+
+}
+
+.t_sortable th{
+ padding-top: -10px;
+}
+
+.t_sortable tr{
+  margin-top: 10px;
+
+} */
+
+/* .t_sortable tr:first-child {
+  cursor: default;
+  
+} */
+/* .ui-sortable-placeholder {
+  background: yellow;
+} */
+table {
+        border-collapse: separate;
+        border-spacing: 0 15px;
+      }
+      th {
+        background-color: #4287f5;
+        color: white;
+      }
+      th,
+      td {
+        width: 150px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+      }
+      h2 {
+        color: #4287f5;
+      }
+      .t_sortable tr, .ui-sortable-helper {
+  cursor: move;
+
+}
+.t_sortable tr:first-child {
+  cursor: default;
+}
+
+.fulltable{
+
+  border: #4287f5 solid 2px;
+  margin-left: 12px;
+}
+
+        </style>
+  </head>
+  <body>
+    <div style="display: flex;">
+      <div  class="fulltable" >
+
+        <table class="tables_ui" id="t_draggable2">
+          <tbody class="t_sortable">
+            <tr>
+              <th>Welcome to new item</th>
+  
+            </tr>
+            <tr>
+              <td>New work process</td>
+  
+            </tr>
+  
+            <tr>
+              <td>work done</td>
+  
+            </tr>
+  
+          </tbody>
+  
+        </table>
+      </div>
+  
+  
+  <div class="fulltable">
+  
+    
+        <table class="tables_ui" id="t_draggable2">
+          <caption><h3>Process File</h3> <hr> <hr></caption>
+    
+    
+          <tbody class="t_sortable">
+            <tr>
+              <th>Welcome to new item</th>
+    
+            </tr>
+            <tr>
+              <td>New work process</td>
+    
+            </tr>
+    
+            <tr>
+              <td>work done</td>
+    
+            </tr>
+    
+          </tbody></table>
+  </div>
+  
+  <div class="fulltable">
+  
+    <table class="tables_ui" id="t_draggable2">
+      <caption><h3>Process File</h3> <hr> <hr></caption>
+  
+  
+      <tbody class="t_sortable">
+        <tr>
+          <th>Welcome to new item</th>
+  
+        </tr>
+        <tr>
+          <td>36</td>
+  
+        </tr>
+        <tr>
+          <td>236</td>
+  
+        </tr>
+  
+      </tbody></table>
+  </div>
+  
+  <div class="fulltable">
+  
+    <table class="tables_ui" id="t_draggable2">
+      <caption><h3>Process File</h3> <hr> <hr></caption>
+  
+  
+      <tbody class="t_sortable">
+        <tr>
+          <th>Welcome to new item</th>
+  
+        </tr>
+        <tr>
+          <td>36</td>
+  
+        </tr>
+        <tr>
+          <td>236</td>
+  
+        </tr>
+  
+      </tbody></table>
+  </div>
+    </div>
+    
+
+  </body>
+
+  <script src="script.js"></script>
+</html>
